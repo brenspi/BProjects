@@ -30,4 +30,4 @@ target_series['result'] = np.where(target_series['price_fluct'] == target_series
 Correct=target_series['result'].sum()
 total= target_series.shape[0]
 accuracy = (Correct/total)*100
-print (f"Accuracy when Data is in hours format is : {accuracy}")
+print (f"Accuracy when Data is in hours format is: {accuracy}")
